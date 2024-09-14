@@ -1,0 +1,738 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    
+  }
+  
+  .left-side {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  #explore-icon{
+    color: #ffffff;
+    cursor: pointer;
+  }
+  #explore-icon:hover{
+    border: 3px solid blue;
+  
+  /* .explore-container {
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    display: inline-block; Keep the button in place */
+}
+
+#explore-icon {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 200px;
+  
+}
+
+#optionsList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  width: 200px;
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 100%; /* Directly below the button */
+  left: 0;
+  z-index: 1;
+  display: none; /* Initially hidden */
+}
+
+#optionsList li {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+#optionsList li:last-child {
+  border-bottom: none;
+}
+
+  
+  .center-logo img {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .right-side {
+    display: flex;
+  }
+  
+  .icon {
+    margin-right: 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .icon:hover{
+    border: 3px solid white;
+   border-color: blue;
+  }
+
+  .live-icon {
+   border: 1px solid red;
+ color: #ffffff;
+    
+  }
+  .live-icon:hover{
+  background-color: red;
+    cursor: pointer;
+
+  }
+  body{
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2024/01/50357031136-19790264a3-k.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    font-size: 70px;
+    color:white;
+    margin-top: 80px;
+    float: left;
+    font-weight: bold;
+}
+.para{
+    color: white;
+    margin-top:260px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+button{
+    width: 140px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(229, 69, 11);
+    margin-left:30px ;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+  transform: scale(1.2);
+}
+button:hover{
+  background-color: red;
+}
+.line p{
+    color: white;
+    letter-spacing: 2px;
+   margin-left: 10px;
+   font-size: 12px;
+}
+.line h4{
+    color: white;
+    margin-left: 10px;
+   font-size: 12px;
+   font-size: 15px;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.image-container {
+  display: flex;
+}
+
+.image-container img{
+  width: 350px;
+  margin-top: 90px;
+  height: 600px;
+  float: left;
+  filter: brightness(50%) contrast(120%);
+}
+.parag {
+  font-size: 25px;
+  margin-top: 400px;
+  /* left: 35%; */
+  float: left;
+  text-align: left;
+ line-height: 3rem;
+ width : 800px;
+ height: 500px; 
+ position: absolute;
+ left: 150px;
+ box-shadow: 10px 10px 10px 10px black;
+ display: flex;
+}
+
+
+.featureimg{
+  width: 100%;
+  height: 650px;
+  background-color: white;
+
+}
+.featureimg h1{
+  padding: 60px;
+  color: black;
+  font-weight: bold;
+  font-size: 44px;
+}
+.featureimg1 img{
+  height: 390px;
+  width: 600px;
+  position: absolute;
+  left: 70px;
+  top: 800px;
+  color: black;
+  cursor: pointer;
+   filter: brightness(70%) contrast(120%);
+}
+.para2 p{
+  color:white;
+position: absolute;
+right: 460px;
+top: 1120px;
+font-size: 24px;
+transform: translate(-50%, -50%);
+}
+
+.featureimg2 img{
+  height: 390px;
+  width: 280px;
+  position: absolute;
+  left: 680px;
+  top: 800px;
+  cursor: pointer;
+  filter: brightness(60%) contrast(120%);
+}
+.para3 p{
+  color:white;
+  position: absolute;
+  right: 330px;
+  top: 1120px;
+  font-size: 20px;
+  transform: translate(-50%, -50%);
+}
+.featureimg3 img{
+  width: 300px;
+  height: 190px;
+  position: absolute;
+  right: 110px;
+  top: 803px;
+  filter: brightness(50%) contrast(120%);
+}
+.para4 p{
+  color:white;
+  position: absolute;
+  right: 50px;
+  top: 913px;
+  font-size: 19px;
+  transform: translate(-50%, -50%);
+}
+.featureimg4 img{
+  width: 300px;
+  height: 180px;
+  position: absolute;
+  right: 110px;
+  top: 1010px; 
+  filter: brightness(50%) contrast(120%);
+}
+
+.para5 p{
+  color:white;
+  position: absolute;
+  left: 1119px;
+  top: 1110px;
+  font-size: 19px;
+  transform: translate(-50%, -50%);
+}
+
+.imagesound img{
+  width: 100%;
+  height: 800px;
+  filter: brightness(50%) contrast(120%);
+}
+
+.soundhead h1{
+  color:white;
+  position: absolute;
+  left: 500px;
+  top: 1570px;
+  font-size: 90px;
+  transform: translate(-50%, -50%); 
+}
+
+.soundhead p{
+  color:white;
+  position: absolute;
+  left: 360px;
+  top: 1790px;
+  font-size: 18px;
+  transform: translate(-50%, -50%); 
+}
+
+.doosrapara h3{
+  color:white;
+  position: absolute;
+  left: 130px;
+  top: 1880px;
+  font-size: 20px;
+  transform: translate(-50%, -50%); 
+}
+.safeed{
+  background-color:white;
+  width: 100%;
+  height: 1060px;
+}
+.imgwala img{
+  height: 450px;
+  width: 730px;
+  cursor: pointer;
+  position: absolute;
+  right: 70px;
+  top: 2190px;
+  
+}
+.safeed h1{
+  padding: 50px;
+  margin-top: 50px;
+}
+.safeed p{
+  padding: 50px;
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 30px;
+}
+.chotiimages1 img{
+  height: 190px;
+  width: 320px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+.chotiimages2 img{
+  height: 100px;
+  width: 140px;
+  position: absolute;
+  top: 2935px;
+  left: 363px;
+  cursor: pointer;
+}
+.chotiimages3 img{
+  height: 90px;
+  width: 140px;
+  position: absolute;
+  top: 3037px;
+  left: 363px;
+  cursor: pointer;
+} 
+
+.chotiimages4 img{
+  height: 190px;
+  width: 320px;
+  margin-left: 519px;
+  position:absolute;
+  top: 2935px;
+  cursor: pointer;
+}
+
+.chotiimages5 img{
+  height: 100px;
+  width: 140px;
+  position: absolute;
+  top: 2935px;
+  left: 841px;
+  cursor: pointer;
+}
+.chotiimages6 img{
+  height: 86px;
+  width: 140px;
+  position:absolute;
+  top: 3037px;
+  left: 841px;
+  cursor: pointer;
+}
+
+.chotiimages7 img{
+  height: 190px;
+  width: 320px;
+  margin-left: 990px;
+  position:absolute;
+  top: 2934px;
+  cursor: pointer;
+}
+.earthinfo {
+  width: 100%;
+  height: 800px;
+}
+.earthinfo img{
+  width: 100%;
+  height: 800px;
+  filter: brightness(50%) contrast(120%);
+}
+.earthinfo h1{
+  font-size: 80px;
+  color: aliceblue;
+  padding: 80px;
+  position: absolute;
+  top: 3250px;
+}
+.earthinfo p{
+  font-size: 19px;
+  color: aliceblue;
+  padding: 80px;
+  position: absolute;
+  top: 3600px;
+}
+.moretopics{
+  width: 100%;
+  height: 1100px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* padding:5px; */
+  /* margin:50px; */
+}
+.moretopics h1{
+ margin-top: 80px;
+  font-size: 40px;
+  text-align: center;
+  padding-left: 70px;
+
+}
+.moretopics1 img{
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  top: 4200px;
+  left: 70px;
+  filter: brightness(50%) contrast(120%);
+  cursor: pointer;
+}
+.moretopics1 p{
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  opacity: 7px;
+  top: 4460px;
+  left: 90px;
+ 
+}
+
+.moretopics2 img{
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  top: 4200px;
+  left: 390px;
+  filter: brightness(50%) contrast(120%);
+}
+.moretopics2 p{
+  color: white;
+  font-size: 29px;
+  font-weight: bold;
+  position: absolute;
+  top: 4460px;
+  left: 400px;
+  
+}
+.moretopics3 img{
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  top: 4200px;
+  left: 710px;
+  filter: brightness(50%) contrast(120%);
+  cursor: pointer;
+}
+.moretopics3 p{
+  color: white;
+  font-size: 29px;
+  font-weight: bold;
+  position: absolute;
+  top: 4460px;
+  left: 730px;
+}
+
+.moretopics4 img{
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  top: 4200px;
+  left: 1030px;
+  filter: brightness(60%) contrast(120%);
+  cursor: pointer;
+}
+.moretopics4 p{
+  color: white;
+  font-size: 29px;
+  font-weight: bold;
+  position: absolute;
+  top: 4460px;
+  left: 1050px;
+}
+.moretopics5 img{
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  top: 4640px;
+  left: 65px;
+  filter: brightness(50%) contrast(120%);
+  cursor: pointer;
+}
+.moretopics5 p{
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  opacity: 7px;
+  top: 4904px;
+  left: 90px;
+}
+.moretopics6 img{
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  top: 4640px;
+  left: 390px;
+  filter: brightness(50%) contrast(120%);
+  cursor: pointer;
+}
+.moretopics6 p{
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  opacity: 7px;
+  top: 4904px;
+  left: 410px;
+}
+.moretopics7 img{
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  top: 4640px;
+  left: 710px;
+  filter: brightness(50%) contrast(120%);
+  cursor: pointer;
+}
+.moretopics7 p{
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  opacity: 7px;
+  top: 4904px;
+  left: 730px;
+}
+.moretopics8 img{
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  top: 4640px;
+  left: 1030px;
+  filter: brightness(60%) contrast(120%);
+  cursor: pointer;
+}
+.moretopics8 p{
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  opacity: 7px;
+  top: 4904px;
+  left: 1060px;
+}
+.lastimi{
+  width: 100%;
+  height: 600px;
+}
+.explouni img{
+  width: 100%;
+  height: 600px;
+}
+.explouni h1{
+  font-size: 60px;
+  color: white;
+  position: absolute;
+  top: 5200px;
+  left: 70px;
+}
+.explouni h6{
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 5470px;
+  left: 70px;
+}
+
+.explouni p{
+  color: white;
+  position: absolute;
+  top: 5570px;
+  left: 70px;
+}
+footer{
+  width: 100%;
+  height: 600px;
+}
+.end-logo img{
+  height: 70px;
+  width: 120px;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.divi1 h3{
+  color: white;
+  margin-top: 50px;
+  margin-left: 64px;
+}
+.divi1 p{
+  color: white;
+  margin-left: 64px;
+}
+.hovery p{
+  color: #ffffff;
+  margin-left: 64px;
+  font-size: 15px;
+}
+
+.hovery p:hover{
+  text-decoration: underline;
+  color: #ffffff;
+ cursor: pointer;
+}
+.joiny p{
+  font-weight: bold;
+  color: #ffffff;
+  margin-left: 64px;
+  font-size: 18;
+
+}
+.divi2{
+  color: #ffffff;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 5855px;
+  left: 500px;
+  font-size: 13px;
+}
+.divi2 ul li{
+  text-decoration: none;
+}
+.divi2 ul li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  transition: 0.5 ease;
+}
+.divi2 ul {
+  list-style: none;
+}
+.divi2 ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+.divi3{
+  color: #ffffff;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 5855px;
+  left: 680px;
+  font-size: 13px;
+}
+.divi3 ul li{
+  text-decoration: none;
+}
+.divi3 ul li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  transition: 0.5 ease;
+}
+.divi3 ul {
+  list-style: none;
+}
+.divi3 ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+.divi4{
+  color: #ffffff;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 5855px;
+  left: 870px;
+  font-size: 13px;
+}
+.divi4 ul li{
+  text-decoration: none;
+}
+.divi4 ul li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  transition: 0.5 ease;
+}
+.divi4 ul {
+  list-style: none;
+}
+.divi4 ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+.social p{
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.social-icons {
+  display: flex; /* Icons ko horizontally line up karne ke liye */
+  flex-direction: row; /* Column layout ke liye */
+  gap: 10px; /* Icons ke beech mein gap dene ke liye */
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+  gap: 20px;
+}
+
+.social-icons li {
+  display: inline; /* List items ko inline banane ke liye */
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: white; 
+  font-size: 17px; 
+}
+.social{
+  position: absolute;
+  top: 5880px;
+  right: 80px;
+  
+}
+.orange-arrow {
+  width: 24px; /* Width of the arrow */
+  height: 24px; /* Height of the arrow */
+  fill: orange; /* Fill color of the arrow */
+}
